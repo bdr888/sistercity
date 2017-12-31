@@ -1,18 +1,21 @@
 import styled from 'styled-components';
 
 const Wrapper = styled.div`
-`;
-
-const AppWrapper = styled.div`
+  width: 1000px;
   display: flex;
-  flex-flow: column wrap;
+  flex-flow: row wrap;
   justify-content: center;
   align-items: center;
+`;
+
+const Title = styled.div`
+  font-size: 18px;
+  margin: 1rem auto;
   text-align: center;
-  font-family: 'Catamaran', sans-serif;
+  color: white;
 `;
 
 export {
-  AppWrapper,
   Wrapper,
+  Title,
 };

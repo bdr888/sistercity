@@ -1,40 +1,54 @@
 import styled from 'styled-components';
 
 const Wrapper = styled.div`
-`;
-
-const ContentWrapper = styled.div`
-  display: flex;
-  flex-flow: row wrap;
+  width: 1000px;
 `;
 
 const Title = styled.div`
   font-size: 30px;
   border-bottom: 5px solid black;
-  margin-bottom: 10px;
+  margin: 1rem auto;
+  text-align: left;
 `;
 
-const Image = styled.div`
-  border: 1px solid black;
-  height: 300px;
-  width: 400px;
+const Image = styled.img`
+  margin: 1rem auto;
 `;
 
-const Description = styled.span`
+const Lineup = styled.div`
+  font-size: 14px;
+  text-align: left;
+`;
+
+const Description = styled.div`
+  font-size: 14px;
+  text-align: left;
+  margin: 1rem auto;
+`;
+
+const Releases = styled.div`
   font-size: 20px;
-  width: 400px;
-  text-align: left;g
+  text-align: left;
+  margin: 1rem auto;
+  border-bottom: 5px solid black;
 `;
 
 const SpotifyEmbed = styled.div`
-  margin: 2rem auto;
+  margin: 1rem auto;
+  text-align: left;
+`;
+
+const Record = styled.div`
+  text-align: left;
 `;
 
 export {
-  ContentWrapper,
   Description,
   Image,
+  Lineup,
   SpotifyEmbed,
   Title,
+  Record,
+  Releases,
   Wrapper,
 };

@@ -1,7 +1,7 @@
 import React from 'react';
 import { Switch, Route } from 'react-router-dom';
-import Artist from './Artist';
-import LeftOnMaple from './LeftOnMaple';
+import Home from './Home';
+import HundredsOfThem from './HundredsOfThem';
 
 // The Main component renders one of the three provided
 // Routes (provided that one matches). Both the /roster
@@ -12,8 +12,8 @@ const Main = () => (
   <main>
     <Switch>
       {/* <Route exact path='/' component={App}/> */}
-      <Route path='/artists' component={Artist}/>
-      <Route path='/LeftOnMaple' component={LeftOnMaple}/>
+      <Route path='/home' component={Home}/>
+      <Route path='/HundredsOfThem' component={HundredsOfThem}/>
     </Switch>
   </main>
 )
