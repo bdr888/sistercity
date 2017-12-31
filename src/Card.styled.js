@@ -1,4 +1,5 @@
 import styled from 'styled-components';
+import { Link } from 'react-router-dom';
 
 const Wrapper = styled.div`
   display: flex;
@@ -8,25 +9,41 @@ const Wrapper = styled.div`
   height: 250px;
   width: 200px;
   margin: 15px;
-  }
 `;
 
-const Image = styled.div`
+const Image = styled.img`
   height: 200px;
   width: 150px;
-  border: 1px solid black;
   margin: 15px;
 `;
 
 const Title = styled.div`
   font-size: 18px;
   text-align: center;
-  border-bottom: 5px solid black;
   width: 160px;
+  font-family: 'Cabin', sans-serif;
 `;
+
+const MyLink = styled(Link)`
+  text-decoration: none;
+  color: black;
+
+    &:link{
+      color: black;
+    }
+    
+    &:hover{
+      color: grey;
+    }
+    
+    &:active{
+      color: #f410b1;
+    }
+ `;
 
 export {
   Wrapper,
   Image,
   Title,
+  MyLink,
 };

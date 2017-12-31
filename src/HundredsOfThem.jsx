@@ -32,7 +32,7 @@ const HundredsOfThem = () => (
         src="https://open.spotify.com/embed/user/etsitramai/playlist/5HSbBVPN8N7JmJiWYgsKfm"
         width="400"
         height="500"
-        frameborder="0"
+        frameBorder="0"
         allowtransparency="true">
       </iframe>
     </SpotifyEmbed>

@@ -36,7 +36,7 @@ const MyLink = styled(Link)`
     }
     
     &:active{
-      color: hotpink;
+      color: #f410b1;
     }
  `;
 

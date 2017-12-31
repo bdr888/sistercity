@@ -15,6 +15,11 @@ class App extends Component {
           {/* <Route exact path='/' component={App}/> */}
           <Route path='/home' component={Home}/>
           <Route path='/HundredsOfThem' component={HundredsOfThem}/>
+          {/* <Route path='/CreamYouPlease' component={HundredsOfThem}/>
+          <Route path='/iamartiste' component={HundredsOfThem}/>
+          <Route path='/3CardMonty' component={HundredsOfThem}/>
+          <Route path='/SmileForMyCamera' component={HundredsOfThem}/>
+          <Route path='/LeftOnMaple' component={HundredsOfThem}/> */}
         </Switch>
         </AppWrapper>
       </Wrapper>
