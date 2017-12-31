@@ -7,8 +7,8 @@ const Wrapper = styled.div`
   justify-content: center;
   height: 30px;
   padding: 20px;
-  background-color: black;
-  color: white;
+  background-color: white;
+  color: black;
 `;
 
 const Icon = styled.img`
@@ -25,10 +25,10 @@ const Title = styled.div`
 
 const MyLink = styled(Link)`
   text-decoration: none;
-  color: white;
+  color: black;
 
     &:link{
-      color: white;
+      color: black;
     }
     
     &:hover{

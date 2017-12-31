@@ -7,21 +7,27 @@ import {
   Title,
   Record,
   Releases,
-  Wrapper
+  Wrapper,
+  LogoWrapper,
 } from './Artist.styled';
-import image from './hundredsofthem.jpg'
-// import thankYou from './Thankyou.jpg'
+import crowd from './crowd.png';
 
 const HundredsOfThem = () => (
-  <Wrapper>
-    <Title>Hundreds of Them</Title>
-    <Image src={image}/>
-    <Description>
-      Hundreds of Them played boring art post rock punk music. They spent more time philospophizing about the sympathetic vibrations of their imagined triumviratee than playing music, which is not very punk rock. They first practiced at 645 Arapahoe in a basement with a dirt floor. Then they took residence in those halcyon days ggat 2005 Upland, The Chicken Coop. 
-    </Description>
-    <Lineup>Guitar/Keyboard - Josh Morris</Lineup>
-    <Lineup>Bass/Vocals - Eric Binkley</Lineup>
-    <Lineup>Drums/Percussion - Brian Ridge</Lineup>
+  <div>
+    <Wrapper>
+      <LogoWrapper>
+        <Image src={crowd}/>
+        <Title>Hundreds of Them</Title>
+    <div>
+      <Lineup>Guitar/Keyboard - Josh Morris</Lineup>
+      <Lineup>Bass/Vocals - Eric Binkley</Lineup>
+      <Lineup>Drums/Percussion - Brian Ridge</Lineup>
+    </div>
+      </LogoWrapper>
+      <Description>
+        Hundreds of Them played boring art post rock punk music. They spent more time philospophizing about the sympathetic vibrations of their imagined triumviratee than playing music, which is not very punk rock. They first practiced at 645 Arapahoe in a basement with a dirt floor. Then they took residence in those halcyon days ggat 2005 Upland, The Chicken Coop. 
+      </Description>
+    </Wrapper>
     <Releases>Releases</Releases>
     <Record>Thank You</Record>
     {/* <Image src={thankYou} /> */}
@@ -29,14 +35,14 @@ const HundredsOfThem = () => (
     <SpotifyEmbed>
       <iframe
         title="HoT-ThankYou"
-        src="https://open.spotify.com/embed/user/etsitramai/playlist/5HSbBVPN8N7JmJiWYgsKfm"
+        src="https://open.spotify.com/embed?uri=spotify:user:etsitramai:playlist:5HSbBVPN8N7JmJiWYgsKfm&theme=white"
         width="400"
         height="500"
         frameBorder="0"
         allowtransparency="true">
       </iframe>
     </SpotifyEmbed>
-  </Wrapper>
+  </div>
 );
 
 export default HundredsOfThem;

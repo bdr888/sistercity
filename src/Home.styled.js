@@ -1,18 +1,18 @@
 import styled from 'styled-components';
 
 const Wrapper = styled.div`
-  width: 1000px;
+  width: 1200px;
   display: flex;
   flex-flow: row wrap;
   justify-content: center;
-  align-items: center;
+  align-items: flex-end;
 `;
 
 const Title = styled.div`
-  font-size: 18px;
+  font-size: 14px;
   margin: 1rem auto;
   text-align: center;
-  color: white;
+  color: black;
 `;
 
 export {

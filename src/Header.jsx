@@ -1,7 +1,7 @@
 import React from 'react';
 // import { Link } from 'react-router-dom';
 import { Wrapper, Icon, Title, MyLink } from './Header.styled';
-import sombrero from './sombrero.png';
+// import sombrero from './sombrero.png';
 
 const Header = () => (
   <Wrapper>
