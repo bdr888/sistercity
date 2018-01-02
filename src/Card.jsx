@@ -7,7 +7,7 @@ class BandCard extends Component {
       <Wrapper>
         <MyLink to={this.props.artist}>
           <Image src={this.props.image}/>
-          <Title>{this.props.children}</Title> 
+          <Title>{this.props.children}</Title>
         </MyLink>
      </Wrapper>
     );
