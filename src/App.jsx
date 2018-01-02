@@ -13,11 +13,11 @@ const App = () => (
         {/* <Route exact path='/' component={App}/> */}
         <Route path="/home" component={Home} />
         <Route path="/HundredsOfThem" component={Artist} />
-        {/* <Route path='/CreamYouPlease' component={HundredsOfThem}/>
-            <Route path='/iamartiste' component={HundredsOfThem}/>
-            <Route path='/3CardMonty' component={HundredsOfThem}/>
-            <Route path='/SmileForMyCamera' component={HundredsOfThem}/>
-            <Route path='/LeftOnMaple' component={HundredsOfThem}/> */}
+        <Route path="/CreamYouPlease" component={Artist} />
+        <Route path="/iamartiste" component={Artist} />
+        <Route path="/3CardMonty" component={Artist} />
+        <Route path="/SmileForMyCamera" component={Artist} />
+        <Route path="/LeftOnMaple" component={Artist} />
       </Switch>
     </AppWrapper>
   </Wrapper>
