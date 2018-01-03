@@ -1,17 +1,20 @@
-import React, { Component } from 'react';
+import React from 'react';
+import { string, node } from 'prop-types';
 import { Wrapper, Image, Title, MyLink } from './Card.styled';
 
-class BandCard extends Component {
-  render () {
-    return (
-      <Wrapper>
-        <MyLink to={this.props.artist}>
-          <Image src={this.props.image}/>
-          <Title>{this.props.children}</Title>
-        </MyLink>
-     </Wrapper>
-    );
-  };
+const BandCard = props => (
+  <Wrapper>
+    <MyLink to={props.bandUrl}>
+      <Image src={props.image} />
+      <Title>{props.children}</Title>
+    </MyLink>
+  </Wrapper>
+);
+
+BandCard.propTypes = {
+  bandUrl: string.isRequired,
+  children: string.isRequired,
+  image: node.isRequired,
 };
 
 export default BandCard;

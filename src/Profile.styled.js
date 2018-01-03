@@ -19,6 +19,7 @@ const Info = styled.div`
 
 const Image = styled.img`
   margin: 1rem auto;
+  width: 400px;
 `;
 
 const BandName = styled.div`

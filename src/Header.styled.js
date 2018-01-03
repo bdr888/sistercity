@@ -11,10 +11,8 @@ const Wrapper = styled.div`
   color: black;
 `;
 
-const Icon = styled.img`
-  height: 30px;
-  background-color: white;
-  margin: 0 5px;
+const Sombrero = styled.img`
+  height: 50px;
 `;
 
 const Title = styled.div`
@@ -42,7 +40,7 @@ const MyLink = styled(Link)`
 
 export {
   Wrapper,
-  Icon,
+  Sombrero,
   Title,
   MyLink,
 };

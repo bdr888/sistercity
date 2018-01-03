@@ -1,15 +1,12 @@
 import React from 'react';
-// import { Link } from 'react-router-dom';
-import { Wrapper, Icon, Title, MyLink } from './Header.styled';
-// import sombrero from './sombrero.png';
+import { Wrapper, Title, MyLink, Sombrero } from './Header.styled';
+import sombrero from './assets/SombreroTitle.png';
 
 const Header = () => (
   <Wrapper>
-    {/* <Link to={"/home"}>
-      <Icon src={sombrero}/>
-    </Link> */}
-    <MyLink to={"/home"}>
-      <Title>Sombrero Records</Title>
+    <MyLink to={'/'}>
+      {/* <Title>Sombrero Records</Title> */}
+      <Sombrero alt="sd" src={sombrero} />
     </MyLink>
   </Wrapper>
 );

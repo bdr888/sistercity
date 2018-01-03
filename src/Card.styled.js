@@ -6,14 +6,13 @@ const Wrapper = styled.div`
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin: 15px;
-  width: 170px;
+  margin: 1rem;
 `;
 
 const Image = styled.img`
   height: auto;
-  width: 170px;
-  margin: 15px;
+  width: 160px;
+  margin-bottom: 1rem;
 `;
 
 const Title = styled.div`

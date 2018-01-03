@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React from 'react';
 import { Switch, Route } from 'react-router-dom';
 import { AppWrapper, Wrapper } from './App.styled';
 import Header from './Header';
@@ -10,8 +10,7 @@ const App = () => (
     <Header />
     <AppWrapper>
       <Switch>
-        {/* <Route exact path='/' component={App}/> */}
-        <Route path="/home" component={Home} />
+        <Route exact path="/" component={Home} />
         <Route path="/HundredsOfThem" component={Artist} />
         <Route path="/CreamYouPlease" component={Artist} />
         <Route path="/iamartiste" component={Artist} />

@@ -8,6 +8,10 @@ import {
   Wrapper,
   BandName,
 } from './Profile.styled';
+// import Data from './data';
+
+// const Members = Data.bands[0].members;
+// console.log(Members);
 
 // @todo make getLinup function - HOC?
 
@@ -17,9 +21,12 @@ const Profile = props => (
       <Image src={props.image} />
       <BandName>{props.bandName}</BandName>
       <Lineup>
-        <div>Guitar/Keyboard - Josh Morris</div>
-        <div>Bass/Vocals - Eric Binkley</div>
-        <div>Drums/Percussion - Brian Ridge</div>
+        {/* {Data.map(member => (
+          <div>{member.instrument} - {member.name}</div>
+        ))} */}
+        <div>Brian Ridge</div>
+        <div>Brian Ridge</div>
+        <div>Brian Ridge</div>
       </Lineup>
     </Info>
     <Description>{ props.description }</Description>
