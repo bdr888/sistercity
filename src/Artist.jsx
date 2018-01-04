@@ -1,4 +1,5 @@
 import React from 'react';
+// import { string, node } from 'prop-types';
 import Profile from './Profile';
 import Releases from './Releases';
 

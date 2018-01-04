@@ -1,5 +1,5 @@
 import React from 'react';
-import { string, node } from 'prop-types';
+import { arrayOf, string, node, shape } from 'prop-types';
 import {
   Description,
   Image,
@@ -16,7 +16,9 @@ const Profile = props => (
       <BandName>{props.bandName}</BandName>
       <Lineup>
         {props.members.map(member => (
-          <div>{member.instrument} - {member.name}</div>
+          <div key={member.name}>
+            {member.instrument} - {member.name}
+          </div>
         ))}
       </Lineup>
     </Info>
@@ -28,7 +30,7 @@ Profile.propTypes = {
   bandName: string.isRequired,
   description: string.isRequired,
   image: node.isRequired,
-  // lineup: node.isRequired,
+  members: arrayOf(shape({ name: string, instrument: string })).isRequired,
 };
 
 export default Profile;

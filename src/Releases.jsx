@@ -28,7 +28,7 @@ const Releases = props => (
           width="400"
           height="500"
           frameBorder="0"
-          allowTransparency="true"
+          // allowTransparency="true"
         />
       </SpotifyEmbed>
     </Wrapper>
