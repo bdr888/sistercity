@@ -1,25 +1,24 @@
 import React from 'react';
-import { Wrapper, Title } from './Home.styled';
+import { CardWrapper, HomeWrapper } from './Home.styled';
 import BandCard from './Card';
 import Data from './data';
 
 const Bands = Data.bands;
 
 const Home = () => (
-  <div>
-    <Wrapper>
+  <HomeWrapper>
+    <CardWrapper>
       {Bands.map(band => (
         <BandCard
           key={band.name}
-          bandUrl={band.url}
+          bandUrl={`/artists/${band.url}`}
           image={band.heroImage}
         >
           {band.name}
         </BandCard>
       ))}
-    </Wrapper>
-    <Title>Punk rock music from Golden, CO.</Title>
-  </div>
+    </CardWrapper>
+  </HomeWrapper>
 );
 
 export default Home;

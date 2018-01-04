@@ -4,6 +4,11 @@ const Wrapper = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: center;
+
+  @media (min-width: 440px){
+    
+  }
 `;
 
 const AppWrapper = styled.div`

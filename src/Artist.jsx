@@ -1,23 +1,21 @@
 import React from 'react';
 import Profile from './Profile';
 import Releases from './Releases';
-import Data from './data';
 
-const Bands = Data.bands;
-
-const Artist = () => (
+const Artist = props => (
   <div>
     <Profile
-      bandName={Bands[0].name}
-      description={Bands[0].description}
-      image={Bands[0].heroImage}
+      bandName={props.artist.name}
+      description={props.artist.description}
+      image={props.artist.heroImage}
+      members={props.artist.members}
     />
     <Releases
-      albumArtist={Bands[0].albums.albumArtist}
-      albumDetails={Bands[0].albums.albumDetails}
-      albumImage={Bands[0].albums.albumImage}
-      albumTitle={Bands[0].albums.albumTitle}
-      spotifyEmbed={Bands[0].albums.spotifyEmbed}
+      albumArtist={props.artist.albums.albumArtist}
+      albumDetails={props.artist.albums.albumDetails}
+      albumImage={props.artist.albums.albumImage}
+      albumTitle={props.artist.albums.albumTitle}
+      spotifyEmbed={props.artist.albums.spotifyEmbed}
     />
   </div>
 );

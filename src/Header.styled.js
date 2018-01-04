@@ -12,12 +12,15 @@ const Wrapper = styled.div`
 `;
 
 const Sombrero = styled.img`
-  height: 50px;
+
+  @media (min-width:415px) {
+    height: 50px;
+  }
 `;
 
 const Title = styled.div`
   font-family: 'Comfortaa', cursive;
-  font-size: 1.5em;
+  font-size: 2rem;
   text-align: center;
 `;
 
