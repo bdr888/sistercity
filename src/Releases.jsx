@@ -11,6 +11,8 @@ import {
   ReleaseTitle,
 } from './Releases.styled';
 
+// @todo album art modal
+
 const Releases = props => (
   <div>
     <ReleaseTitle>Releases</ReleaseTitle>

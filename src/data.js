@@ -9,14 +9,14 @@ import artist from './assets/artist.png';
 const Data = {
   bands: [
     { name: '3 Card Monty',
-      description: 'Lorem ipsum dolor amet snackwave tote bag godard XOXO wolf brunch gastropub church-key irony plaid hot chicken mumblecore dreamcatcher tumblr. VHS truffaut twee, franzen pok pok mustache adaptogen. Bushwick shoreditch tacos slow-carb blog freegan wayfarers locavore irony art party listicle cardigan kogi bicycle rights viral. Portland copper mug aesthetic, austin try-hard yuccie vape squid snackwave fanny pack authentic. Cloud bread salvia quinoa tbh direct trade. Austin brooklyn pug, salvia organic microdosing jean shorts wayfarers tousled aesthetic humblebrag street art enamel pin. Cronut intelligentsia ennui vice 3 wolf moon. Readymade salvia shaman fingerstache, chicharrones keytar everyday carry photo booth actually bushwick activated charcoal mixtape thundercats. Gochujang banjo vaporware PBR&B, af selvage church-key aesthetic sriracha put a bird on it kombucha copper mug photo booth fixie. Chillwave cornhole DIY put a bird on it.',
+      description: 'Ska never died and never will. After too much Blink-182 Kyle said fuck that and put together what came to be the most well-developed band of the group.  They always brought the house down. Fuck school.',
       url: '3CardMonty',
       heroImage: cards,
       members: [
         { name: 'Craig Beloo', instrument: 'Vocals' },
         { name: 'George Davies', instrument: 'Guitar' },
         { name: 'Jorge???', instrument: 'Trombone' },
-        { name: '???', instrument: 'Soprano Saxophone' },
+        { name: '??', instrument: 'Soprano Saxophone' },
         { name: '???', instrument: 'Trumpet' },
         { name: 'Drew ???', instrument: 'Bass' },
         { name: 'Kyle Pattridge', instrument: 'Drums/Percussion' },
@@ -30,7 +30,7 @@ const Data = {
       },
     },
     { name: 'Cream/You Please',
-      description: 'musicccccc muscicccclskdjflsdjfosijflskdjf',
+      description: 'Cream/You Please was the short lived but sharp metamorphosis of iamartiste - down a bassist (Jake "Hollywood" Hansen had departed to show the world just how gorgeous he could be, Brett moved over to Bass, and all of a sudden we were in college.  One time at a house show they started playing Goosebumps give me Goosebumps and Brian\'s bass drum beater fell off and they stopped playing and Brett was pissed cause they were rolling and then in the ackwardness Jared Temanson yelled "That was hot fire!" and then everything was worth it',
       url: 'CreamYouPlease',
       heroImage: creamer,
       members: [
@@ -47,7 +47,7 @@ const Data = {
       },
     },
     { name: 'Hundreds of Them',
-      description: 'Hundreds of Them played boring art post rock punk music. They spent more time philospophizing about the sympathetic vibrations of their imagined triumviratee than playing music, which is not very punk rock. They first practiced at 645 Arapahoe in a basement with a dirt floor. Then they took residence in those halcyon days ggat 2005 Upland, The Chicken Coop.',
+      description: 'Hundreds of Them played boring art post rock punk music. They spent more time philospophizing about the sympathetic vibrations of their imagined triumviratee than playing music, which is not very punk rock. They first practiced at 645 Arapahoe in a basement with a dirt floor. Then they took residence in those halcyon days ggat 2005 Upland, The Chicken Coop. Brian wanted to play hard, Josh wanted to play soft, and Eric just wanted to play with love. The end was in sight so they recorded their songs as a thank you to all the people that made them them and then they gave them away.',
       url: 'HundredsOfThem',
       heroImage: crowd,
       members: [
@@ -64,7 +64,7 @@ const Data = {
       },
     },
     { name: 'iamartiste',
-      description: 'emo lives!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!',
+      description: 'Brian so badly wanted to play in a band that he broke up two just to start his own.  He picked off Jake, and Josh from Corner 4, Brett from Left On Maple, and ventured into that melancholic land of emo. They played a few shows as Long Lost Frontier, but then settled on the completely dumb name of iamartiste',
       url: 'iamartiste',
       heroImage: artist,
       members: [
@@ -82,7 +82,8 @@ const Data = {
       },
     },
     { name: 'Left On Maple',
-      description: 'Left on maple!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!',
+      headline: 'This will be the death of me!',
+      description: 'Left On Maple was the best ever band that came out of Golden, Colorado. Brett\'s vocals just ascerbic, Jared\'s drums tenuous but so delicate. This will be the death of me!',
       url: 'LeftOnMaple',
       heroImage: maple,
       members: [

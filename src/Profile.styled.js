@@ -3,6 +3,7 @@ import styled from 'styled-components';
 const Wrapper = styled.div`
   display: flex;
   flex-flow: row wrap;
+  justify-content: space-around;
   align-items: center;
   margin-bottom: 2.5rem;
 `;
@@ -12,39 +13,53 @@ const Info = styled.div`
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin: 15px;
+  margin: 1rem;
 `;
-
 
 const Image = styled.img`
   margin: 1rem auto;
-  width: 400px;
+  max-width: 300px;
 `;
 
 const BandName = styled.div`
-  font-size: 24px;
+  font-size: 2rem;
   font-weight: 700;
   letter-spacing: 1px;
-  margin: 1rem auto;
-`;
-
-const Description = styled.div`
-  font-size: 14px;
-  text-align: left;
-  margin: 1rem auto;
-  width: 500px;
+  margin: 1rem;
 `;
 
 const Lineup = styled.div`
-  font-size: 14px;
+  font-size: 1rem;
+  text-align: center;
+`;
+
+const Description = styled.div`
+  font-size: 1rem;
   text-align: left;
+  margin: 1rem;
+  max-width: 600px;
+`;
+
+const Headline = styled.div`
+  text-align: center;
+  font-size: 2rem;
+  font-weight: 700;
+  letter-spacing: 1px;
+`;
+
+const Story = styled.div`
+  font-size: 1rem;
+  text-align: left;
+  margin: 1rem;
 `;
 
 export {
   Description,
+  Headline,
   Image,
   Lineup,
   BandName,
   Wrapper,
   Info,
+  Story,
 };

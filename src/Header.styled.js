@@ -2,18 +2,16 @@ import styled from 'styled-components';
 import { Link } from 'react-router-dom';
 
 const Wrapper = styled.div`
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  height: 30px;
-  padding: 20px;
-  background-color: white;
-  color: black;
+  margin: 1rem auto;
 `;
 
 const Sombrero = styled.img`
+  margin: 0 auto;
+  width: 90%;
+  height: auto;
 
-  @media (min-width:415px) {
+  @media (min-width:515px) {
+    width: auto;
     height: 50px;
   }
 `;

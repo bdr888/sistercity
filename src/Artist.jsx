@@ -18,7 +18,8 @@ const Artist = props => (
       albumTitle={props.artist.albums.albumTitle}
       spotifyEmbed={props.artist.albums.spotifyEmbed}
     />
-  </div>
+    <FooterNav />
+  </ArtistWrapper>
 );
 
 export default Artist;

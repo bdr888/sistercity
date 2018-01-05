@@ -4,7 +4,7 @@ import { AppWrapper, Wrapper } from './App.styled';
 import Header from './Header';
 import Home from './Home';
 import Artist from './Artist';
-import Footer from './Footer.styled';
+import { Footer, Illustrations, Subtitle } from './Footer.styled';
 import Data from './data';
 
 const artists = Data.bands;
@@ -25,18 +25,17 @@ const App = () => (
       exact
       path="/"
       render={() => (
-        <Footer>Punk rock music from Golden, CO.</Footer>
+        <div>
+          <Footer>Punk rock music from Golden, CO.</Footer>
+          <Illustrations>
+            <div>
+            Illustrations by <a href="http://racheljablonski.com/" target="_blank" rel="noopener noreferrer">Rachel Jablonski </a>
+            </div>
+          </Illustrations>
+        </div>
       )}
     />
   </Wrapper>
 );
 
 export default App;
-
-
-/* <Route path="/HundredsOfThem" component={Artist} />
-     <Route path="/CreamYouPlease" component={Artist} />
-        <Route path="/iamartiste" component={Artist} />
-        <Route path="/3CardMonty" component={Artist} />
-        <Route path="/SmileForMyCamera" component={Artist} />
-        <Route path="/LeftOnMaple" component={Artist} /> */

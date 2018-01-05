@@ -3,12 +3,9 @@ import styled from 'styled-components';
 const Wrapper = styled.div`
   display: flex;
   flex-direction: column;
-  align-items: center;
   justify-content: center;
-
-  @media (min-width: 440px){
-    
-  }
+  align-items: center;
+  font-family: 'Catamaran', sans-serif;
 `;
 
 const AppWrapper = styled.div`
