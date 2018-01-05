@@ -2,11 +2,14 @@ import React from 'react';
 // import { string, node } from 'prop-types';
 import Profile from './Profile';
 import Releases from './Releases';
+import FooterNav from './FooterNav';
+import ArtistWrapper from './Artist.styled';
 
 const Artist = props => (
-  <div>
+  <ArtistWrapper>
     <Profile
       bandName={props.artist.name}
+      headline={props.artist.headline}
       description={props.artist.description}
       image={props.artist.heroImage}
       members={props.artist.members}
