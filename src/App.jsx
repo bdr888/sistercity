@@ -4,7 +4,7 @@ import { AppWrapper, Wrapper } from './App.styled';
 import Header from './Header';
 import Home from './Home';
 import Artist from './Artist';
-import { Footer, Illustrations, Subtitle } from './Footer.styled';
+import { Footer, Illustrations } from './Footer.styled';
 import Data from './data';
 
 const artists = Data.bands;
@@ -26,7 +26,7 @@ const App = () => (
       path="/"
       render={() => (
         <div>
-          <Footer>Punk rock music from Golden, CO.</Footer>
+          <Footer>A history of punk rock music from Golden, Colorado.</Footer>
           <Illustrations>
             <div>
             Illustrations by <a href="http://racheljablonski.com/" target="_blank" rel="noopener noreferrer">Rachel Jablonski </a>

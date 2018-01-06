@@ -7,7 +7,6 @@ import {
   Lineup,
   Info,
   Wrapper,
-  BandName,
   Story,
 } from './Profile.styled';
 
@@ -15,7 +14,6 @@ const Profile = props => (
   <Wrapper>
     <Info>
       <Image src={props.image} />
-      {/* <BandName>{props.bandName}</BandName> */}
       <Lineup>
         {props.members.map(member => (
           <div key={member.name}>

@@ -21,13 +21,6 @@ const Image = styled.img`
   max-width: 300px;
 `;
 
-const BandName = styled.div`
-  font-size: 2rem;
-  font-weight: 700;
-  letter-spacing: 1px;
-  margin: 1rem;
-`;
-
 const Lineup = styled.div`
   font-size: 1rem;
   text-align: center;
@@ -58,7 +51,6 @@ export {
   Headline,
   Image,
   Lineup,
-  BandName,
   Wrapper,
   Info,
   Story,

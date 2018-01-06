@@ -5,7 +5,7 @@ const Wrapper = styled.div`
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  font-family: 'Catamaran', sans-serif;
+  font-family: 'Roboto', sans-serif;
 `;
 
 const AppWrapper = styled.div`
@@ -14,7 +14,6 @@ const AppWrapper = styled.div`
   justify-content: center;
   align-items: center;
   text-align: center;
-  font-family: 'Catamaran', sans-serif;
 `;
 
 export {

@@ -25,16 +25,19 @@ const Record = styled.div`
   justify-content: center;
 `;
 
-// const RecordArt = styled.img`
-//   max-width: 500px;
-// `;
-
-const RecordArt = styled.div`
+const RecordArt = styled.img`
   height: 20rem;
   width: 20rem;
-  border: 2px solid black;
+  /* border: 2px solid black; */
   margin-bottom: 1rem;
 `;
+
+// const RecordArt = styled.div`
+//   height: 20rem;
+//   width: 20rem;
+//   border: 2px solid black;
+//   margin-bottom: 1rem;
+// `;
 
 const RecordTitle = styled.div`
   font-weight: 700;

@@ -1,6 +1,6 @@
 import React from 'react';
-import { Wrapper, MyLink, Sombrero } from './Header.styled';
-import sombrero from './assets/SombreroTitle.png';
+import { Wrapper, MyLink, Title } from './Header.styled';
+// import sombrero from './assets/SombreroTitle.png';
 
 // @todo make header smaller on artist page
 // @todo
@@ -8,11 +8,11 @@ import sombrero from './assets/SombreroTitle.png';
 const Header = () => (
   <Wrapper>
     <MyLink to={'/'}>
-      <Sombrero alt="home" src={sombrero} />
+      <Title>Sombrero Records</Title>
+      {/* <Sombrero alt="home" src={sombrero} /> */}
     </MyLink>
   </Wrapper>
 );
 
 export default Header;
 
-/* <Title>Sombrero Records</Title> */

@@ -18,7 +18,7 @@ const Image = styled.img`
 const Title = styled.div`
   font-size: 1.2rem;
   text-align: center;
-  font-family: 'Cabin', sans-serif;
+  /* text-transform: uppercase; */
 `;
 
 const MyLink = styled(Link)`

@@ -1,10 +1,13 @@
 import crowd from './assets/crowd.png';
-import hundredsOfThem from './assets/hundredsofthem.jpg';
+// import hundredsOfThem from './assets/hundredsofthem.jpg';
 import maple from './assets/maple.png';
 import creamer from './assets/creamer.jpg';
 import cards from './assets/cards.jpg';
 import camera from './assets/camera.png';
 import artist from './assets/artist.png';
+import hotalbum from './assets/hotalbum.jpg';
+import smilealbum from './assets/smilealbum.jpg';
+import creamalbum from './assets/creamalbum.jpg';
 
 const Data = {
   bands: [
@@ -15,11 +18,12 @@ const Data = {
       members: [
         { name: 'Craig Beloo', instrument: 'Vocals' },
         { name: 'George Davies', instrument: 'Guitar' },
+        { name: 'Clay ???', instrument: 'Guitar' },
         { name: 'Jorge???', instrument: 'Trombone' },
         { name: '??', instrument: 'Soprano Saxophone' },
         { name: '???', instrument: 'Trumpet' },
         { name: 'Drew ???', instrument: 'Bass' },
-        { name: 'Kyle Pattridge', instrument: 'Drums/Percussion' },
+        { name: 'Kyle Pattridge', instrument: 'Drums' },
       ],
       albums: {
         albumArtist: '3 Card Monty',
@@ -41,7 +45,7 @@ const Data = {
       albums: {
         albumArtist: 'Cream/You Please',
         albumDetails: '2007 (SR-5)',
-        albumImage: creamer,
+        albumImage: creamalbum,
         albumTitle: 'demos',
         spotifyEmbed: 'https://open.spotify.com/embed?uri=spotify:user:etsitramai:playlist:2Ivx5613dY4KuPV8ZNroqj&theme=white',
       },
@@ -58,7 +62,7 @@ const Data = {
       albums: {
         albumArtist: 'Hundeds of Them',
         albumDetails: '2009 (SR-6)',
-        albumImage: hundredsOfThem,
+        albumImage: hotalbum,
         albumTitle: 'Thank You',
         spotifyEmbed: 'https://open.spotify.com/embed?uri=spotify:user:etsitramai:playlist:5HSbBVPN8N7JmJiWYgsKfm&theme=white',
       },
@@ -101,7 +105,7 @@ const Data = {
       },
     },
     { name: 'Smile For My Camera',
-      description: 'indie dance pop lives!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!',
+      description: 'Smile for my camera won battle of the bands when they were still a joke and then we all realized there was nothing really funny about any of it.  They simply thrashed hard.  100% The Faint ripoff. indie dance pop lives!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!',
       url: 'SmileForMyCamera',
       heroImage: camera,
       members: [
@@ -113,7 +117,7 @@ const Data = {
       albums: {
         albumArtist: 'Smile For My Camera',
         albumDetails: '2003 (SR-4)',
-        albumImage: camera,
+        albumImage: smilealbum,
         albumTitle: 'demos',
         spotifyEmbed: 'https://open.spotify.com/embed?uri=spotify:user:etsitramai:playlist:0asyIlnbulq74L6uCD4Rn5&theme=white',
       },

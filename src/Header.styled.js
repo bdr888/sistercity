@@ -17,7 +17,7 @@ const Sombrero = styled.img`
 `;
 
 const Title = styled.div`
-  font-family: 'Comfortaa', cursive;
+  font-family: 'Roboto', cursive;
   font-size: 2rem;
   text-align: center;
 `;
