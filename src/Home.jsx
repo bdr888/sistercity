@@ -2,6 +2,7 @@ import React from 'react';
 import { CardWrapper, HomeWrapper } from './Home.styled';
 import BandCard from './Card';
 import Data from './data';
+// import Carousel from './Carousel';
 
 const Bands = Data.bands;
 
@@ -18,6 +19,7 @@ const Home = () => (
         </BandCard>
       ))}
     </CardWrapper>
+    {/* <Carousel /> */}
   </HomeWrapper>
 );
 
