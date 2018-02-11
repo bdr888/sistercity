@@ -1,5 +1,6 @@
 import React from 'react';
 import { string } from 'prop-types';
+// import axios from 'axios';
 import {
   SpotifyEmbed,
   Record,
@@ -12,6 +13,18 @@ import {
 } from './Releases.styled';
 
 // @todo album art modal
+
+// where should this go? in a server, puts it directly into a db, keep it out of client?
+// dynamically calculate height of album embed
+// const getAlbumLength = () => (
+//   axios.get('https://api.spotify.com/v1/users/etsitramai/playlists/0CJzBeJcS8d0wv5PP9tWhp/tracks')
+//     .then((response) => {
+//       console.log(response);
+//      (response.how many tracks it returns) * ~46px + 80px for the header
+//     })
+//     .catch((error) => {
+//       console.log(error);
+//     }));
 
 const Releases = props => (
   <div>
@@ -29,6 +42,7 @@ const Releases = props => (
           src={props.spotifyEmbed}
           width="400"
           height="500"
+          // height={albumLength()}
           frameBorder="0"
           // allowTransparency="true"
         />
