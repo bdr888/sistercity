@@ -31,6 +31,8 @@ const Data = {
         albumImage: cards,
         albumTitle: 'A Friend Of a Friend',
         spotifyEmbed: 'https://open.spotify.com/embed?uri=spotify:user:etsitramai:playlist:0CJzBeJcS8d0wv5PP9tWhp&theme=white',
+        // playlistTracks: 'https://open.spotify.com/embed?uri=spotify:user:etsitramai:playlist:0CJzBeJcS8d0wv5PP9tWhp&theme=white',
+        // GET https://api.spotify.com/v1/users/etsitramai/playlists/0CJzBeJcS8d0wv5PP9tWhp/tracks
       },
     },
     { name: 'Cream/You Please',
