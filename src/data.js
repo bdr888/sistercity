@@ -133,3 +133,11 @@ const Data = {
 
 export default Data;
 
+// Devin's iamartiste pics
+// https://www.facebook.com/devinomauriello/media_set?set=a.4607646642.10130.504886642&type=3
+
+// Craig's 3 Card pics
+// https://www.facebook.com/cdbellew/media_set?set=a.112204903710.94308.504068710&type=3
+
+// Jason's smile pics
+// https://www.facebook.com/smileformycamera/media_set?set=a.332833800469.194799.508515469&type=3
