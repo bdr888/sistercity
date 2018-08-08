@@ -53,7 +53,7 @@ const Data = {
       },
     },
     { name: 'Hundreds of Them',
-      description: 'Hundreds of Them played boring art post rock punk music. They spent more time philospophizing about the sympathetic vibrations of their imagined triumviratee than playing music, which is not very punk rock. They first practiced at 645 Arapahoe in a basement with a dirt floor. Then they took residence in those halcyon days ggat 2005 Upland, The Chicken Coop. Brian wanted to play hard, Josh wanted to play soft, and Eric just wanted to play with love. The end was in sight so they recorded their songs as a thank you to all the people that made them them and then they gave them away.',
+      description: 'Hundreds of Them played boring art post rock punk music. They spent more time philospophizing about the sympathetic vibrations of their imagined triumviratee than playing music, which is not a very punk rock way to do things. They first practiced at 645 Arapahoe in a basement with a dirt floor. Then they took residence in those halcyon days at 2005 Upland, The Chicken Coop. Brian wanted to play hard, Josh wanted to play soft, and Eric just wanted to play with love. The end was in sight so they recorded their songs as a thank you to all the people that made them them and then they gave them away.',
       url: 'HundredsOfThem',
       heroImage: crowd,
       members: [
